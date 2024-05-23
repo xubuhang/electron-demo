@@ -1,0 +1,36 @@
+body {
+  background-color: #9cc3e4;
+}
+#container {
+}
+#actionbar {
+  display: flex;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  /* 高度自行调整 */
+  height: 34px;
+  top: 0px;
+  left: 0px;
+  border-bottom-width: 1px;
+  border-bottom-color: #c5dfb3;
+  border-bottom-style: solid;
+  /* 拖拽 */
+  -webkit-app-region: drag;
+}
+ #title {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
+ #actions {
+  right: 30px;
+  position: absolute;
+}
+
+#actions > button {
+  justify-content: right;
+  -webkit-app-region: no-drag;
+}

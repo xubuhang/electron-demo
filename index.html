@@ -1,0 +1,26 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Hello World!</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+  </head>
+  <body>
+    <div id="container" >
+      <div id="actionbar">  
+        <div id="logo">华兴致远</div>
+        <div id="title">标题</div>
+        <div id="actions">
+          <button id="close-btn">关闭</button>  
+          <button id="minimize-btn">缩小</button>  
+          <button id="maximize-btn">放大</button>  
+        </div>
+      </div>
+  </div>
+    <script src="./renderer.js"></script>
+   
+  </body>
+</html>
